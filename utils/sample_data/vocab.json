@@ -1,0 +1,26 @@
+{
+  "-MiBsfuTafbEQ7eAULxV": {
+    "title": "word",
+    "firebaseKey": "-MiBsfuTafbEQ7eAULxV",
+    "definition": "this is the definition",
+    "language_tech": "HTML",
+    "time_submitted": "7:11 P.M.",
+    "uid": ""
+  },
+  "-MiBt86VzkC-EGmJnxjm": {
+    "title": "another word",
+    "firebaseKey": "-MiBt86VzkC-EGmJnxjm",
+    "definition": "here is another definition",
+    "language_tech": "CSS",
+    "time_submitted": "7:14 P.M.",
+    "uid": ""
+  },
+  "-MiBtwf1BwN9pGavQeR3": {
+    "title": "third word",
+    "firebaseKey": "-MiBtwf1BwN9pGavQeR3",
+    "definition": "here is YET another definition",
+    "language_tech": "JavaScript",
+    "time_submitted": "7:35 P.M.",
+    "uid": ""
+  }
+}
