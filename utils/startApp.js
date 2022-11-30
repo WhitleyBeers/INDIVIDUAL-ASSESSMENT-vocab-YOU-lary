@@ -1,7 +1,8 @@
 import logoutButton from '../components/logoutButton';
 import domBuilder from '../components/domBuilder';
 import navBar from '../components/navBar';
-import { emptyCards } from '../pages/vocabCards';
+import { showCards } from '../pages/vocabCards';
+import { getWords } from '../api/words';
 
 const startApp = (user) => { // add user in parameters!!
   domBuilder(user); // BUILD THE DOM
@@ -10,8 +11,7 @@ const startApp = (user) => { // add user in parameters!!
   navBar(); // DYNAMICALLY ADD THE NAV
   logoutButton(); // ADD THE LOGOUT BUTTON COMPONENT
   // navigationEvents(user); // ATTACH THE EVENT LISTENERS TO THE NAVBAR
-  // getBooks(user.uid).then(showBooks);
-  emptyCards();
+  getWords(user.uid).then(showCards);
 };
 
 export default startApp;
