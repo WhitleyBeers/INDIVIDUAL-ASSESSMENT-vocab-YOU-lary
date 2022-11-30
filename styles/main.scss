@@ -3,8 +3,34 @@
 
 
 body {
-  background-color: antiquewhite;
-  color: brown;
+  background-color: #EAECEF;
+  color: #3E4147;
   text-align: center;
   margin-top: 100px;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #CC4425;
+}
+
+h6 {
+  font-style: italic;
+}
+
+#cards-container {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.card {
+width: 300px;
+margin: 5px;
+}
+
+.btn-group {
+  margin-bottom: 20px;
 }

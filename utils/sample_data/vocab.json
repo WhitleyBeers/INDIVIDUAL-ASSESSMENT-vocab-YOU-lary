@@ -1,26 +1,162 @@
 {
-  "-MiBsfuTafbEQ7eAULxV": {
-    "title": "word",
-    "firebaseKey": "-MiBsfuTafbEQ7eAULxV",
-    "definition": "this is the definition",
-    "language_tech": "HTML",
-    "time_submitted": "7:11 P.M.",
-    "uid": ""
-  },
-  "-MiBt86VzkC-EGmJnxjm": {
-    "title": "another word",
-    "firebaseKey": "-MiBt86VzkC-EGmJnxjm",
-    "definition": "here is another definition",
+  "-NI4y5DLk1-Fr2UT53Ax": {
+    "firebaseKey": "-NI4y5DLk1-Fr2UT53Ax",
+    "title": "nunc commodo placerat praesent blandit nam nulla integer pede justo",
+    "definition": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
     "language_tech": "CSS",
-    "time_submitted": "7:14 P.M.",
+    "time_submitted": "11:34 AM",
     "uid": ""
   },
-  "-MiBtwf1BwN9pGavQeR3": {
-    "title": "third word",
-    "firebaseKey": "-MiBtwf1BwN9pGavQeR3",
-    "definition": "here is YET another definition",
+  "-NI4y5DOMgkx3XcCzJil": {
+    "firebaseKey": "-NI4y5DOMgkx3XcCzJil",
+    "title": "lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium",
+    "definition": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n\nCurabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+    "language_tech": "HTML",
+    "time_submitted": "8:13 PM",
+    "uid": ""
+  },
+  "-NI4y5DQl01PjBeObJu3": {
+    "firebaseKey": "-NI4y5DQl01PjBeObJu3",
+    "title": "rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede",
+    "definition": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+    "language_tech": "HTML",
+    "time_submitted": "3:20 PM",
+    "uid": ""
+  },
+  "-NI4y5DTcz9vDvPmofPb": {
+    "firebaseKey": "-NI4y5DTcz9vDvPmofPb",
+    "title": "non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue",
+    "definition": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+    "language_tech": "CSS",
+    "time_submitted": "9:03 AM",
+    "uid": ""
+  },
+  "-NI4y5DWOOpnVsBSp_hV": {
+    "firebaseKey": "-NI4y5DWOOpnVsBSp_hV",
+    "title": "blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus",
+    "definition": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+    "language_tech": "CSS",
+    "time_submitted": "11:27 PM",
+    "uid": ""
+  },
+  "-NI4y5DZeGdLBKrmLruD": {
+    "firebaseKey": "-NI4y5DZeGdLBKrmLruD",
+    "title": "cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit",
+    "definition": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+    "language_tech": "HTML",
+    "time_submitted": "1:12 AM",
+    "uid": ""
+  },
+  "-NI4y5DbDoNHD74W-my5": {
+    "firebaseKey": "-NI4y5DbDoNHD74W-my5",
+    "title": "turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem",
+    "definition": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+    "language_tech": "HTML",
+    "time_submitted": "4:59 PM",
+    "uid": ""
+  },
+  "-NI4y5Dejq2fHBRskX5E": {
+    "firebaseKey": "-NI4y5Dejq2fHBRskX5E",
+    "title": "sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce",
+    "definition": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+    "language_tech": "CSS",
+    "time_submitted": "7:54 AM",
+    "uid": ""
+  },
+  "-NI4y5Dg6Qd83uFLTZVo": {
+    "firebaseKey": "-NI4y5Dg6Qd83uFLTZVo",
+    "title": "non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac",
+    "definition": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.",
+    "language_tech": "HTML",
+    "time_submitted": "5:09 AM",
+    "uid": ""
+  },
+  "-NI4y5DjAVoLBGt85Lbc": {
+    "firebaseKey": "-NI4y5DjAVoLBGt85Lbc",
+    "title": "a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis",
+    "definition": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
     "language_tech": "JavaScript",
-    "time_submitted": "7:35 P.M.",
+    "time_submitted": "12:07 PM",
+    "uid": ""
+  },
+  "-NI4y5DmRoaA6owzPqgR": {
+    "firebaseKey": "-NI4y5DmRoaA6owzPqgR",
+    "title": "eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc",
+    "definition": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+    "language_tech": "JavaScript",
+    "time_submitted": "11:40 AM",
+    "uid": ""
+  },
+  "-NI4y5DpYeBQj7fglnl6": {
+    "firebaseKey": "-NI4y5DpYeBQj7fglnl6",
+    "title": "orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt",
+    "definition": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+    "language_tech": "HTML",
+    "time_submitted": "8:13 AM",
+    "uid": ""
+  },
+  "-NI4y5DsW-ECVYmOx6Ju": {
+    "firebaseKey": "-NI4y5DsW-ECVYmOx6Ju",
+    "title": "vestibulum quam sapien varius ut blandit non interdum in ante vestibulum",
+    "definition": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
+    "language_tech": "JavaScript",
+    "time_submitted": "4:22 PM",
+    "uid": ""
+  },
+  "-NI4y5Dv2z7DS_77Ta2m": {
+    "firebaseKey": "-NI4y5Dv2z7DS_77Ta2m",
+    "title": "luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec",
+    "definition": "In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+    "language_tech": "JavaScript",
+    "time_submitted": "5:47 PM",
+    "uid": ""
+  },
+  "-NI4y5DyH3FWd7OSTWRu": {
+    "firebaseKey": "-NI4y5DyH3FWd7OSTWRu",
+    "title": "fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti",
+    "definition": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.\n\nIn congue. Etiam justo. Etiam pretium iaculis justo.",
+    "language_tech": "JavaScript",
+    "time_submitted": "10:11 AM",
+    "uid": ""
+  },
+  "-NI4y5E-6VBm68PYDN7I": {
+    "firebaseKey": "-NI4y5E-6VBm68PYDN7I",
+    "title": "lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin",
+    "definition": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n\nInteger tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
+    "language_tech": "CSS",
+    "time_submitted": "2:58 PM",
+    "uid": ""
+  },
+  "-NI4y5E1N5y_DWsmAdWQ": {
+    "firebaseKey": "-NI4y5E1N5y_DWsmAdWQ",
+    "title": "volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed",
+    "definition": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+    "language_tech": "JavaScript",
+    "time_submitted": "7:10 PM",
+    "uid": ""
+  },
+  "-NI4y5E4MMYxv6_pUnWN": {
+    "firebaseKey": "-NI4y5E4MMYxv6_pUnWN",
+    "title": "turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin",
+    "definition": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+    "language_tech": "JavaScript",
+    "time_submitted": "5:43 PM",
+    "uid": ""
+  },
+  "-NI4y5E6LZJtNe4DGL-N": {
+    "firebaseKey": "-NI4y5E6LZJtNe4DGL-N",
+    "title": "vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere",
+    "definition": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+    "language_tech": "HTML",
+    "time_submitted": "12:06 AM",
+    "uid": ""
+  },
+  "-NI4y5E8_x4rBtbBa8MU": {
+    "firebaseKey": "-NI4y5E8_x4rBtbBa8MU",
+    "title": "quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat",
+    "definition": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+    "language_tech": "HTML",
+    "time_submitted": "7:44 AM",
     "uid": ""
   }
 }
