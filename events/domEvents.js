@@ -1,4 +1,4 @@
-import { deleteWord, getWords } from '../api/words';
+import { getWords, deleteWord } from '../api/words';
 import addWordForm from '../components/form';
 import { showCards } from '../pages/vocabCards';
 
