@@ -22,7 +22,7 @@ const getWords = (uid) => new Promise((resolve, reject) => {
 });
 
 const createWord = (payload) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/words.json`, {
+  fetch(`${endpoint}/vocab.json`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -46,4 +46,19 @@ const deleteWord = (firebaseKey) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-export { getWords, createWord, deleteWord };
+const updateWord = (payload) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocab/${payload.firebaseKey}.json`, {
+    method: 'PATCH',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(payload),
+  })
+    .then((response) => response.json())
+    .then(resolve)
+    .catch(reject);
+});
+
+export {
+  getWords, createWord, updateWord, deleteWord
+};

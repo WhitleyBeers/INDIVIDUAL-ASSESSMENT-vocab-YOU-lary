@@ -22,7 +22,7 @@ const addWordForm = (obj = {}) => {
           <option value="JavaScript">JavaScript</option>
         </select>
       </div>
-      <button type="submit" class="btn btn-primary">Create Vocabulary Card</button>
+      <button type="submit" class="btn btn-primary" id="submit-word">Create Vocabulary Card</button>
     </form>
   `;
   renderToDom('#form-container', domString);

@@ -16,20 +16,20 @@ const showCards = (array) => {
   let domString = '';
   array.forEach((item) => {
     domString += `
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 22rem;">
       <div class="card-body">
         <h4 class="card-title">${item.title}</h4>
-        <h6 class="card-subtitle mb-2">${item.definition}</h6>
         <hr>
-        <button class="btn btn-outline-success" id="edit-card-btn--${item.firebaseKey}">
-          <i class="fas fa-edit"></i>
-        </button>
+        <h5 class="text-muted">${item.language_tech}</h5>
+        <hr>
+        <h6 class="card-subtitle mb-2">${item.definition}</h6>
+        <div class="card-footer">
+          <button class="btn btn-outline-success" id="edit-card-btn--${item.firebaseKey}">
+            <i class="fas fa-edit"></i>
+          </button>
         <button class="btn btn-outline-danger" id="delete-card-btn--${item.firebaseKey}">
           <i class="fas fa-trash-alt"></i>
         </button>
-        <hr>
-        <div class="card-footer">
-          <h5 class="text-muted">${item.language_tech}</h5>
         </div>
       </div>
     </div>
