@@ -34,3 +34,17 @@ margin: 5px;
 .btn-group {
   margin-bottom: 20px;
 }
+
+i {
+  pointer-events: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form > button {
+  margin-top: 20px;
+}
