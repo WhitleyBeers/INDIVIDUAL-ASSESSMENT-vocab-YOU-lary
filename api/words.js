@@ -34,4 +34,16 @@ const createWord = (payload) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-export { getWords, createWord };
+const deleteWord = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocab/${firebaseKey}.json`, {
+    method: 'DELETE',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(data))
+    .catch(reject);
+});
+
+export { getWords, createWord, deleteWord };
