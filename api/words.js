@@ -71,6 +71,51 @@ const getSingleWord = (firebaseKey) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
+const getHtml = (uid) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocab.json?orderBy="uid"&equalTo="${uid}"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      const htmlCards = Object.values(data).filter((item) => item.language_tech === 'HTML');
+      resolve(htmlCards);
+    })
+    .catch(reject);
+});
+
+const getCSS = (uid) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocab.json?orderBy="uid"&equalTo="${uid}"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      const cssCards = Object.values(data).filter((item) => item.language_tech === 'CSS');
+      resolve(cssCards);
+    })
+    .catch(reject);
+});
+
+const getJS = (uid) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocab.json?orderBy="uid"&equalTo="${uid}"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      const jsCards = Object.values(data).filter((item) => item.language_tech === 'JavaScript');
+      resolve(jsCards);
+    })
+    .catch(reject);
+});
+
 export {
-  getWords, createWord, updateWord, deleteWord, getSingleWord
+  getWords, createWord, updateWord, deleteWord, getSingleWord, getHtml, getCSS, getJS
 };

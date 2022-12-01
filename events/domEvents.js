@@ -1,4 +1,6 @@
-import { getWords, deleteWord, getSingleWord } from '../api/words';
+import {
+  getWords, deleteWord, getSingleWord, getHtml, getCSS, getJS
+} from '../api/words';
 import addWordForm from '../components/form';
 import { emptyCards, showCards } from '../pages/vocabCards';
 
@@ -36,6 +38,18 @@ const domEvents = (user) => {
           emptyCards();
         }
       });
+    }
+  });
+
+  document.querySelector('#filter-buttons').addEventListener('click', (e) => {
+    if (e.target.id.includes('show-html')) {
+      getHtml(user.uid).then(showCards);
+    } else if (e.target.id.includes('show-css')) {
+      getCSS(user.uid).then(showCards);
+    } else if (e.target.id.includes('show-javascript')) {
+      getJS(user.uid).then(showCards);
+    } else if (e.target.id.includes('show-all')) {
+      getWords(user.uid).then(showCards);
     }
   });
 };
