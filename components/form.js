@@ -11,18 +11,18 @@ const addWordForm = (obj = {}) => {
       </div>
       <div class="form-group col-sm-6">
         <label for="definition">Define your word</label>
-        <textarea class="form-control" id="definition" placeholder="Type the definition here..." value="${obj.definition || ''}" style="height: 200px" required></textarea>
+        <input type="text" class="form-control" id="definition" placeholder="Type the definition here..." value="${obj.definition || ''}" required></input>
       </div>
       <div class="form-group col-sm-6">
         <label for="language">Select a Language</label>
         <select class="form-control" id="language" required>
           <option value="">Select a Language</option>
-          <option value="html">HTML</option>
-          <option value="CSS">CSS</option>
-          <option value="JavaScript">JavaScript</option>
+          <option value="HTML" ${obj.language_tech === 'HTML' ? 'selected' : ''}>HTML</option>
+          <option value="CSS" ${obj.language_tech === 'CSS' ? 'selected' : ''}>CSS</option>
+          <option value="JavaScript" ${obj.language_tech === 'JavaScript' ? 'selected' : ''}>JavaScript</option>
         </select>
       </div>
-      <button type="submit" class="btn btn-primary" id="submit-word">Create Vocabulary Card</button>
+      <button type="submit" class="btn btn-primary" id="submit-word">Submit</button>
     </form>
   `;
   renderToDom('#form-container', domString);

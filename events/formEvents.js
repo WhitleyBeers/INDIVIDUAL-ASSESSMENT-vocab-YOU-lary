@@ -10,9 +10,9 @@ const formEvents = (user) => {
       const payload = {
         title: document.querySelector('#word_title').value,
         definition: document.querySelector('#definition').value,
-        language_tech: document.querySelector('#language').value.toUpperCase(),
+        language_tech: document.querySelector('#language').value,
         uid: user.uid,
-        time_submitted: new Date().toLocaleTimeString()
+        time_submitted: new Date().toLocaleString()
       };
 
       // console.warn(payload);
@@ -26,7 +26,7 @@ const formEvents = (user) => {
     }
 
     // TODO: CLICK EVENT FOR EDITING A BOOK
-    if (e.target.id.includes('edit-card-btn')) {
+    if (e.target.id.includes('update-word')) {
       const [, firebaseKey] = e.target.id.split('--');
       const payload = {
         title: document.querySelector('#word_title').value,

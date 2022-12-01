@@ -1,6 +1,6 @@
-import { getWords, deleteWord } from '../api/words';
+import { getWords, deleteWord, getSingleWord } from '../api/words';
 import addWordForm from '../components/form';
-import { showCards } from '../pages/vocabCards';
+import { emptyCards, showCards } from '../pages/vocabCards';
 
 const domEvents = (user) => {
   document.querySelector('#cards-container').addEventListener('click', (e) => {
@@ -17,14 +17,11 @@ const domEvents = (user) => {
     }
 
     // TODO: CLICK EVENT EDITING/UPDATING A CARD
-    //   if (e.target.id.includes('edit-book-btn')) {
-    //     // console.warn('EDIT BOOK', e.target.id);
-    //     // console.warn(e.target.id.split('--'));
-    //     const [, firebaseKey] = e.target.id.split('--');
+    if (e.target.id.includes('edit-card-btn')) {
+      const [, firebaseKey] = e.target.id.split('--');
 
-  //     getSingleBook(firebaseKey).then((bookObj) => addBookForm(bookObj));
-  //     // getSingleBook(firebaseKey).then(addBookForm); // using the callback method
-  //   }
+      getSingleWord(firebaseKey).then((wordObj) => addWordForm(wordObj));
+    }
   });
 
   document.querySelector('#navigation').addEventListener('click', (e) => {
@@ -32,7 +29,13 @@ const domEvents = (user) => {
       addWordForm();
     }
     if (e.target.id.includes('show-cards')) {
-      getWords(user.uid).then(showCards);
+      getWords(user.uid).then((wordArray) => {
+        if (wordArray.length) {
+          showCards(wordArray);
+        } else {
+          emptyCards();
+        }
+      });
     }
   });
 };

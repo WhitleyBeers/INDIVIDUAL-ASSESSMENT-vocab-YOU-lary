@@ -59,6 +59,18 @@ const updateWord = (payload) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
+const getSingleWord = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocab/${firebaseKey}.json`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(data))
+    .catch(reject);
+});
+
 export {
-  getWords, createWord, updateWord, deleteWord
+  getWords, createWord, updateWord, deleteWord, getSingleWord
 };

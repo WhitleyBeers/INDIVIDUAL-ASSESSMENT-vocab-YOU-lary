@@ -10,7 +10,7 @@ const emptyCards = () => {
 
 const showCards = (array) => {
   clearDom();
-  const btnString = '<div class="btn-group" role="group" aria-label="Basic mixed styles example"><button type="button" class="btn btn-warning">Show All</button><button type="button" class="btn btn-success">HTML</button><button type="button" class="btn btn-primary">CSS</button><button type="button" class="btn btn-danger">JavaScript</button></div>';
+  const btnString = '<div class="btn-group" role="group" aria-label="Basic mixed styles example"><button type="button" id="show-all" class="btn btn-warning">Show All</button><button type="button" id="show-html" class="btn btn-success">HTML</button><button type="button" id="show-css" class="btn btn-primary">CSS</button><button type="button" id="show-javascript" class="btn btn-danger">JavaScript</button></div>';
   renderToDom('#filter-buttons', btnString);
 
   let domString = '';
