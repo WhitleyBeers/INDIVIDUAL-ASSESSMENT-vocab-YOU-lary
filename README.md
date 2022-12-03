@@ -15,6 +15,7 @@ Vocab-YOU-lary can help you keep track of the new terms you're learning along wi
 - The user can create new vocabulary cards and enter their terms and definitions, and choose a lanuage from a drop-down menu
 - The user can either edit or delete their vocabulary cards using buttons that appear at the bottom of their cards
 - The user can filter their cards by the language
+- The user can sort their vocabulary cards alphabetically, oldest, or newest
 
 ## Video Walkthrough of Vocab-YOU-lary <!-- A loom link is sufficient -->
 [https://www.loom.com/share/829b90d831ea441ba2db6bea724af210](https://www.loom.com/share/341d36fe2cb54aa180a3fd193a30f69d)
