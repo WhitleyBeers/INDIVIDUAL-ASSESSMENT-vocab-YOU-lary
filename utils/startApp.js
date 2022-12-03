@@ -5,6 +5,7 @@ import { showCards } from '../pages/vocabCards';
 import { getWords } from '../api/words';
 import domEvents from '../events/domEvents';
 import formEvents from '../events/formEvents';
+import sortCards from '../events/sort';
 
 const startApp = (user) => { // add user in parameters!!
   domBuilder(user); // BUILD THE DOM
@@ -14,6 +15,7 @@ const startApp = (user) => { // add user in parameters!!
   logoutButton(); // ADD THE LOGOUT BUTTON COMPONENT
   // navigationEvents(user); // ATTACH THE EVENT LISTENERS TO THE NAVBAR
   getWords(user.uid).then(showCards);
+  sortCards(user);
 };
 
 export default startApp;

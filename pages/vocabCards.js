@@ -1,5 +1,6 @@
 import clearDom from '../utils/clearDom';
 import renderToDom from '../utils/renderToDom';
+// import sortCards from '../events/sort';
 
 const emptyCards = () => {
   const btnString = '<div class="btn-group" role="group" aria-label="Basic mixed styles example"><button type="button" class="btn btn-warning">Show All</button><button type="button" class="btn btn-success">HTML</button><button type="button" class="btn btn-primary">CSS</button><button type="button" class="btn btn-danger">JavaScript</button></div>';
@@ -12,6 +13,18 @@ const showCards = (array) => {
   clearDom();
   const btnString = '<div class="btn-group" role="group" aria-label="Basic mixed styles example"><button type="button" id="show-all" class="btn btn-warning">Show All</button><button type="button" id="show-html" class="btn btn-success">HTML</button><button type="button" id="show-css" class="btn btn-primary">CSS</button><button type="button" id="show-javascript" class="btn btn-danger">JavaScript</button></div>';
   renderToDom('#filter-buttons', btnString);
+
+  const sortString = `<div class="row g-3">
+  <div class="col-sm-15">
+    <select class="form-select" id="sortCards" aria-label="sort-entries">
+      <option>Sort Entries</option>
+      <option value="abc">Alphabetically</option>
+      <option value="oldest">Oldest</option>
+      <option value="newest">Newest</option>
+    </select>
+  </div>
+  </div>`;
+  renderToDom('#sort', sortString);
 
   let domString = '';
   array.forEach((item) => {
