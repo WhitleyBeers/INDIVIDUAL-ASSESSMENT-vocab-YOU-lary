@@ -37,12 +37,13 @@ const showCards = (array) => {
         <hr>
         <h6 class="card-subtitle mb-2">${item.definition}</h6>
         <div class="card-footer">
-          <button class="btn btn-outline-success" id="edit-card-btn--${item.firebaseKey}">
+          <button class="btn btn-outline-success mb-2" id="edit-card-btn--${item.firebaseKey}">
             <i class="fas fa-edit"></i>
           </button>
-        <button class="btn btn-outline-danger" id="delete-card-btn--${item.firebaseKey}">
+        <button class="btn btn-outline-danger mb-2" id="delete-card-btn--${item.firebaseKey}">
           <i class="fas fa-trash-alt"></i>
         </button>
+        <div class="card-footer">Submitted: ${item.time_submitted}</div>
         </div>
       </div>
     </div>
