@@ -27,15 +27,14 @@ Vocab-YOU-lary can help you keep track of the new terms you're learning along wi
 
 ## Code Snippet <!-- OPTIONAL, but doesn't hurt -->
 ```
-const ViewDirectorBasedOnUserAuthStatus = () => {
-  firebase.initializeApp(client);
-  firebase.auth().onAuthStateChanged((user) => {
-    if (user) {
-      // user is logged in
-      startApp(user);
-    } else {
-      // user is not logged in
-      loginButton();
+const sortCards = (user) => {
+  document.querySelector('#sort').addEventListener('change', (e) => {
+    if (e.target.value.includes('abc')) {
+      getAbc(user.uid).then(showCards);
+    } else if (e.target.value.includes('oldest')) {
+      getOldest(user.uid).then(showCards);
+    } else if (e.target.value.includes('newest')) {
+      getNewest(user.uid).then(showCards);
     }
   });
 };
